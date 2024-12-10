@@ -122,7 +122,7 @@ ui <- fluidPage(
         color: #28a745;
         text-align: right; 
         position: absolute;
-        right: 5%;
+        right: 2%;
         top: 45%;
       }
 
@@ -957,8 +957,9 @@ server <- function(input, output, session) {
       if (is.na(adjusted_price) || is.null(adjusted_price)) {
         "Please enter valid inputs."
       } else {
-        paste("Predicted Adjusted Price for", intended_year, ": VND",
-              format(round(adjusted_price, 2), big.mark = ","))
+        paste("Predicted Adjusted Price for", intended_year, ": ",
+              format(round(adjusted_price, 2), big.mark = ","), "B VND")
+
       }
     })
   })
