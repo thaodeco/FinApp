@@ -1,7 +1,3 @@
-Here's a more visually appealing and user-friendly version of your README file:
-
----
-
 # **FinApp: Your Financial Companion**
 
 Welcome to **FinApp**, your go-to Shiny app for financial analysis and insights. Follow the simple steps below to get started running the app locally.
