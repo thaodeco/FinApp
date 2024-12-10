@@ -39,5 +39,3 @@ If you encounter any issues or have questions, feel free to reach out or submit 
 Happy analyzing! 🎉
 
 ---
-
-This version adds visual separation, clear steps, and user-friendly language, making the README more engaging and accessible. Let me know if you'd like further tweaks!
